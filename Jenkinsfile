@@ -43,7 +43,7 @@ pipeline {
                     docker run -d \
                       --name html-app \
                       --restart unless-stopped \
-                      -p 9090:80 \
+                      -p 8082:80 \
                       html-website:latest
                 '''
             }
